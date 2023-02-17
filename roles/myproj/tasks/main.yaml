@@ -1,0 +1,6 @@
+- name:  -- service mod
+  service:
+    name: nginx
+    enabled: yes
+    state: started
+  tags:  service_mod
